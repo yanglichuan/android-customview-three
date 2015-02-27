@@ -1,0 +1,10 @@
+<resources>
+    <declare-styleable name="MyRedPointImageView">
+        <attr name="backimg" format="reference" />
+        <attr name="showpp" format="boolean" />
+    </declare-styleable>
+    
+      <declare-styleable name="MyColorFullRadioButton">
+        <attr name="ccolor" format="reference" />
+    </declare-styleable>
+</resources>

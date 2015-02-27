@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ylc="http://schemas.android.com/apk/res/com.example.bittt2"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <com.example.bittt2.MyColorFullRadioButton
+        android:id="@+id/rrbb"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="100dp"
+        ylc:ccolor="@android:color/holo_orange_light" >
+    </com.example.bittt2.MyColorFullRadioButton>
+
+    <com.example.bittt2.MyColorFullRadioButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+          android:layout_marginLeft="100dp"
+        ylc:ccolor="@android:color/background_dark" >
+    </com.example.bittt2.MyColorFullRadioButton>
+
+    <com.example.bittt2.MyColorFullRadioButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+          android:layout_marginLeft="100dp"
+        ylc:ccolor="@android:color/holo_blue_bright" >
+    </com.example.bittt2.MyColorFullRadioButton>
+
+</LinearLayout>

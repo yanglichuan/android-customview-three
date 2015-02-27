@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ylc="http://schemas.android.com/apk/res/com.example.bittt2"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+    
+    <Button 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="固定头部的listview"
+        android:onClick="bt_function1"
+        />
+    
+    <Button 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="五颜六色的radiobutton"
+        android:onClick="bt_function2"
+        />
+    
+    
+    <Button 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="遮隐密码输入框"
+        android:onClick="bt_function3"
+        />
+    
+    
+    <Button 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="带删除的输入框"
+        android:onClick="bt_function4"
+        />
+    
+    
+    <Button 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="带动画的tab"
+        android:onClick="bt_function5"
+        />
+    
+    
+      
+    <Button 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="linepoints"
+        android:onClick="bt_function6"
+        />
+       
+    <Button 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="红点提醒"
+        android:onClick="bt_function7"
+        />
+    
+    
+
+
+</LinearLayout>
